@@ -1,7 +1,8 @@
 {
-  "name": "ufv",
-  "version": "1.0.1",
+  "name": "ufv-test",
+  "version": "1.0.2",
   "description": "Update file version",
+  "author": "Kharchenko Oleksandr <kharchenko.san@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/spacelips/ufv.git"
@@ -16,6 +17,8 @@
     "file",
     "version"
   ],
-  "author": "Kharchenko Oleksandr <kharchenko.san@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "uuid": "^8.3.2"
+  }
 }
