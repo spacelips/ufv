@@ -1,6 +1,6 @@
 {
   "name": "ufv-test",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Update file version",
   "author": "Kharchenko Oleksandr <kharchenko.san@gmail.com>",
   "repository": {
@@ -18,7 +18,8 @@
     "version"
   ],
   "license": "MIT",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "uuid": "^8.3.2"
   }
 }
