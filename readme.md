@@ -1,5 +1,8 @@
 # File Version for monolith project
 
+## Install package `npm install -D ufv`
+
+## Set up your script
 Create your own script for updating file version with options:
 ```js
 const FileVersion  = require('ufv');
