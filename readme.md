@@ -1,19 +1,19 @@
 # File Version for monolith project
 
-Create your script:
+Create your own script for updating file version with options:
 ```js
-    const FileVersion  = require('ufv');
+const FileVersion  = require('ufv');
 
-    const ALLOWED_EXTENSIONS = [
-        '.js',
-        '.css',
-        '.scss',
-        '.sass'
-        ];
+const ALLOWED_EXTENSIONS = [
+    '.js',
+    '.css',
+    '.scss',
+    '.sass'
+    ];
 
 const options = {
     allowedExtensions: ALLOWED_EXTENSIONS,
-    filePath: 'dist/file-version.json',
+    filePath: './file-version.json',
     addToGit: true
 };
 
@@ -21,7 +21,7 @@ const options = {
 
 ```
 
-## Add to `package.json` scripts
+## Add scripts to `package.json`:
 ```json
 "scripts": {
     "ufv": "node path/to/you-ufv-script.js",
@@ -37,8 +37,8 @@ Install package `npm install -D pre-commit`
 
 And then add to `package.json`:
 ```json
-    "pre-commit": [
-        "...",
-        "ufv-git-hook"
-    ]
+"pre-commit": [
+    "...",
+    "ufv-git-hook"
+]
 ```
