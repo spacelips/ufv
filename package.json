@@ -1,0 +1,16 @@
+{
+  "name": "ufv",
+  "version": "1.0.1",
+  "description": "Update file version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "update",
+    "file",
+    "version"
+  ],
+  "author": "Kharchenko Oleksandr <kharchenko.san@gmail.com>",
+  "license": "ISC"
+}
