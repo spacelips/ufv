@@ -27,9 +27,9 @@ const options = {
 ## Add scripts to `package.json`:
 ```json
 "scripts": {
-    "ufv": "node path/to/you-ufv-script.js",
-    "ufv-only": "node path/to/you-ufv-script.js --onlyUpdate",
-    "ufv-force": "node path/to/you-ufv-script.js --force --onlyUpdate",
+    "ufv": "node path/to/your-ufv-script.js",
+    "ufv-only": "node path/to/your-ufv-script.js --onlyUpdate",
+    "ufv-force": "node path/to/your-ufv-script.js --force --onlyUpdate",
     "ufv-git-hook": "npm run ufv"
   }
 ```
