@@ -1,6 +1,6 @@
 {
-  "name": "ufv-test",
-  "version": "1.0.4",
+  "name": "ufv",
+  "version": "1.0.5",
   "description": "Update file version",
   "author": "Kharchenko Oleksandr <kharchenko.san@gmail.com>",
   "repository": {
